@@ -5,15 +5,14 @@ body{
     background-color: rgb(16, 16, 28);
 }
 .logo{
-    /* border: 1px solid white; */
     margin-left:0px;
 }
 header{
-    background-image: url(Div\ [banner]\(1\).png);
+    background-image: url(images/Div\ [banner]\(1\).png);
     background-size: cover;
 }
 nav{
-    /* border: 1px solid white; */
+
     display: flex;
     justify-content: space-around;
 }
@@ -22,11 +21,15 @@ nav{
     color: white;
     list-style: none;
     display: flex;
-    /* border: 2px solid yellow; */
     right: 20px;
 }
-
+a{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    width: 50px;
+}
 li:hover{
+    
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
@@ -39,7 +42,6 @@ li:hover{
 
 /* banner */
 .banner{
-    /* border: 1px solid yellow; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,7 +52,6 @@ li:hover{
 
 .text{
     color: rgb(255, 242, 0);
-    /* border: 1px solid white; */
     text-align: center;
     padding: 30px;
     line-height: 40px;
@@ -140,3 +141,4 @@ main{
     display: flex;
     align-items: center;
 }
+
